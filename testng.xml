@@ -3,21 +3,21 @@
 <suite name="Suite">
   <test name="Test">
     <classes>
-      <class name="SCRIPTS.Testscript1"/>
-      <class name="SCRIPTS.Testscript2"/>
-      <class name="SCRIPTS.Testscript3"/>
-      <class name="SCRIPTS.Testscript4"/>
-      <class name="SCRIPTS.Testscript5"/>
-      <class name="SCRIPTS.Testscript6"/>
+      <class name="SCRIPTS.Testscript9"/>
       <class name="SCRIPTS.Testscript7"/>
       <class name="SCRIPTS.Testscript8"/>
-      <class name="SCRIPTS.Testscript9"/>
-      <class name="SCRIPTS.Testscript10"/>
+      <class name="SCRIPTS.Testscript5"/>
+      <class name="SCRIPTS.Testscript6"/>
+      <class name="SCRIPTS.Testscript3"/>
+      <class name="SCRIPTS.Testscript4"/>
+      <class name="SCRIPTS.Testscript1"/>
+      <class name="SCRIPTS.Testscript2"/>
       <class name="SCRIPTS.Testscript11"/>
-      <class name="SCRIPTS.Testscript12"/>
+      <class name="SCRIPTS.Testscript10"/>
       <class name="SCRIPTS.Testscript13"/>
-      <class name="SCRIPTS.Testscript14"/>
+      <class name="SCRIPTS.Testscript12"/>
       <class name="SCRIPTS.Testscript15"/>
+      <class name="SCRIPTS.Testscript14"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
