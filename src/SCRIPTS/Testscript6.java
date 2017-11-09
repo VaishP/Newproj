@@ -24,7 +24,11 @@ public class Testscript6  extends Basetest{
 		h.anarkalisfn();
 		Festivalsaree fe=new Festivalsaree(driver);
 		fe.selectbykurtacolfn();
+		Thread.sleep(5000);
 		fe.selectbykurtacolgreenfn();
+		Thread.sleep(5000);
+		fe.discountfn();
+		Thread.sleep(5000);
 		fe.selectproductfn();
 		Buynowpage bn=new Buynowpage(driver);
 		bn.buynowfn();

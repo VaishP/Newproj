@@ -25,8 +25,11 @@ public class Testscript2 extends Basetest{
 		h.festivalopfn();
 		Festivalsaree f=new Festivalsaree(driver);
 		f.festivalcolfn();
+		Thread.sleep(5000);
 		f.festivalcolselfn();
+		Thread.sleep(5000);
 		f.discountfn();
+		Thread.sleep(5000);
 		f.selectproductfn();
 		
 		Buynowpage bn=new Buynowpage(driver);

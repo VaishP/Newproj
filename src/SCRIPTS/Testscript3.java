@@ -26,7 +26,9 @@ public void testvalidlogonlogout3() throws InterruptedException{
 	h.readymadefn();
 	Festivalsaree fe=new Festivalsaree(driver);
 	fe.selectblousefn();
+	Thread.sleep(5000);
 	fe.selectblousecolfn();
+	Thread.sleep(5000);
 	fe.selectproductfn();
 	Buynowpage bn=new Buynowpage(driver);
 	bn.buynowfn();

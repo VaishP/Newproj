@@ -33,6 +33,7 @@ Homepage h=new Homepage(driver);
 	lp.filterbcolfn();
 	Thread.sleep(5000);
 	lp.filterbydiscount();
+	Thread.sleep(5000);
 	lp.selectproductfn();
 	Buynowpage bn=new Buynowpage(driver);
 	bn.buynowfn();

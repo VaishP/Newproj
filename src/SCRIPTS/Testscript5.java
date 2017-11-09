@@ -24,8 +24,13 @@ public class Testscript5 extends Basetest {
 		h.movetoelementfun();
 		h.contemporaryfn();
 		Festivalsaree fe=new Festivalsaree(driver);
-		fe.selectblousefn();
+		
 		fe.selectcontblousecolfn();
+		Thread.sleep(5000);
+		fe.selcontblousecolclickfn();
+		Thread.sleep(5000);
+		fe.discountfn();
+		Thread.sleep(5000);
 		fe.selectproductfn();
 		Buynowpage bn=new Buynowpage(driver);
 		bn.buynowfn();

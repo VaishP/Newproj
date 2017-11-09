@@ -23,7 +23,9 @@ public class Festivalsaree extends Basesites{
 	private WebElement selblouseclick;
 	@FindBy(xpath="//label[@for='color_brown']")
 	private WebElement seldesblousecol;
-	@FindBy(xpath="//label[@for='color_Gold']")
+	@FindBy(xpath="(//input[@placeholder='Search By Color'])[2]")
+	private WebElement selcontblousecoltext;
+	@FindBy(xpath="//label[@for='color_gold']")
 	private WebElement selcontblousecol;
 	@FindBy(xpath="//input[@placeholder='Search By Kurta Color']")
 	private WebElement selbykurtacol;
@@ -56,11 +58,18 @@ public class Festivalsaree extends Basesites{
 		selblouseclick.click();
 	}
 	public void selectdeblousecolfn(){
-		seldesblousecol.sendKeys("brown");
+		selblousecol.sendKeys("brown");
+	}
+	
+	public void selectdesblouseclickfn(){
+		seldesblousecol.click();
 	}
 	public void selectcontblousecolfn(){
-		selcontblousecol.sendKeys("gold");
+		selcontblousecoltext.sendKeys("gold");
 	}
+	public void selcontblousecolclickfn(){
+		selcontblousecol.click();
+}
 	public void selectbykurtacolfn(){
 		selbykurtacol.sendKeys("green");
 	}

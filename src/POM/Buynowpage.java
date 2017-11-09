@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 import UNIVERSAL.Basesites;
 
 public class Buynowpage  extends Basesites  {
-	@FindBy(xpath="//button[@id='buynow']")
+	@FindBy(id="buynow")
 	private WebElement buynow;
 	
 	
