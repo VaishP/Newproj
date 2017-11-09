@@ -25,8 +25,8 @@ private WebElement deliverbtn;
 
 public Checkout(WebDriver driver){
 	super(driver);
+	
 	PageFactory.initElements(driver, this);
-
 }
 public void checkoutemail(){
 	checkoutmail.sendKeys("yerabalusiri@gmail.com");
