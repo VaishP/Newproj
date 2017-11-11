@@ -10,13 +10,6 @@
           <include name="closeapp"/>
         </methods>
       </class> <!-- SCRIPTS.Testscript13 -->
-      <class name="SCRIPTS.Testscript5">
-        <methods>
-          <include name="openapp"/>
-          <include name="closeapp"/>
-          <include name="testvalidlogonlogout5"/>
-        </methods>
-      </class> <!-- SCRIPTS.Testscript5 -->
       <class name="SCRIPTS.Testscript9">
         <methods>
           <include name="openapp"/>

@@ -1,7 +1,5 @@
 package SCRIPTS;
 
-import java.util.concurrent.TimeUnit;
-
 import org.testng.annotations.Test;
 
 import POM.Buynowpage;

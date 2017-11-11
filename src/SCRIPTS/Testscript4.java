@@ -16,6 +16,7 @@ public class Testscript4 extends Basetest  {
 		LoginPage l=new LoginPage(driver);
 
 		l.signinbtn();
+		Thread.sleep(1000);
 		l.loginmail();
 		l.continuebtnfn();
 		l.pawrdfun();
