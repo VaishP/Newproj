@@ -13,7 +13,7 @@ import UNIVERSAL.Basetest;
 //for login
 public class Testscript1  extends Basetest{
 @Test
-public void testvalidlogonlogout() throws InterruptedException{
+public void testvalidlogonlogout1() throws InterruptedException{
 	//driver.manage().timeouts().implicitlyWait(25, TimeUnit.SECONDS);
 	LoginPage l=new LoginPage(driver);
 
