@@ -15,6 +15,7 @@ public class Testscript12 extends Basetest{
 	public void testvalidlogonlogout12() throws InterruptedException{
 		LoginPage l=new LoginPage(driver);
 		l.signinbtn();
+		Thread.sleep(3000);
 		l.loginmail();
 		l.continuebtnfn();
 		l.pawrdfun();
@@ -24,7 +25,9 @@ public class Testscript12 extends Basetest{
 		h.salwarunstitchedfn();
 		Festivalsaree fe=new Festivalsaree(driver);
 		fe.selectbykurtacolfn();
+		Thread.sleep(3000);
 		fe.selectbykurtacolgreenfn();
+		Thread.sleep(3000);
 		fe.selectproductfn();
 		Buynowpage bn=new Buynowpage(driver);
 		bn.buynowfn();

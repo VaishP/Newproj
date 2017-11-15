@@ -18,6 +18,7 @@ public void testvalidlogonlogout1() throws InterruptedException{
 	LoginPage l=new LoginPage(driver);
 
 	l.signinbtn();
+	Thread.sleep(5000);
 	l.loginmail();
 	l.continuebtnfn();
 	l.pawrdfun();

@@ -15,6 +15,7 @@ public class Testscript10 extends Basetest{
 	public void testvalidlogonlogout10() throws InterruptedException{
 		LoginPage l=new LoginPage(driver);
 		l.signinbtn();
+		Thread.sleep(3000);
 		l.loginmail();
 		l.continuebtnfn();
 		l.pawrdfun();
